@@ -1,4 +1,5 @@
 python-binance
+optuna
 pandas
 numpy
 scikit-learn

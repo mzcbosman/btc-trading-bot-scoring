@@ -1,6 +1,6 @@
 # BTC Scoring Bot
 
-A small crypto signal and backtesting project that blends technical indicators with on-chain MVRV data to produce a simple BTC exposure model.
+A small crypto signal and backtesting project that blends technical indicators with on-chain MVRV data to produce a simple BTC exposure model. Bayesian optimisation used on weights.
 
 ## What it does
 
@@ -19,6 +19,7 @@ A small crypto signal and backtesting project that blends technical indicators w
 ## Project structure
 
 - `scoring_bot.py` - main pipeline, feature engineering, backtest, and chart export
+- `weight_search/` - Bayesian optimization entrypoint for discovering signal weights
 - `config/` - API key loading and local environment handling
 - `exchange/` - Binance client setup
 - `data/` - data helpers

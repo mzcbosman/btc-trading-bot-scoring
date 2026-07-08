@@ -1,0 +1,17 @@
+{
+  "validation_start": "2025-01-02",
+  "best_trial_value": 140655.41936675328,
+  "best_weights": {
+    "sma_dist": 0.00011140700782912683,
+    "ema_slope": 0.4881661649977484,
+    "rsi": 0.501963343190153,
+    "exnet": 0.0007370609204540576,
+    "mvrv": 0.009022023883815447
+  },
+  "train_final_portfolio_value": 140655.41936675328,
+  "train_total_return_pct": 1306.554193667533,
+  "train_max_drawdown_pct": -46.24721796816904,
+  "validation_final_portfolio_value": 9756.086988973326,
+  "validation_total_return_pct": -2.4391301102667406,
+  "validation_max_drawdown_pct": -18.530100383240146
+}

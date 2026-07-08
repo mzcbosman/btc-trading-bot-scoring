@@ -85,11 +85,11 @@ def build_feature_frame(raw_df, mvrv_series):
     feat["volatility_scaled"] = scale_to_range(feat["volatility_20"], 0.0, 0.06)
 
     feat["combined_signal"] = (
-        0.3 * feat["sma_dist_scaled"]
-        + 0.2 * feat["ema_slope_scaled"]
-        + 0.15 * feat["rsi_scaled"]
-        + 0.05 * feat["exnet_scaled"]
-        + 0.3 * feat["mvrv_scaled"]
+        0.001 * feat["sma_dist_scaled"]
+        + 0.4882 * feat["ema_slope_scaled"]
+        + 0.5020 * feat["rsi_scaled"]
+        + 0.0007 * feat["exnet_scaled"]
+        + 0.009 * feat["mvrv_scaled"]
     )
 
     feat["exposure"] = pd.cut(
