@@ -6,6 +6,7 @@ A small crypto signal and backtesting project that blends technical indicators w
 
 - Pulls historical BTCUSDT candles from Binance
 - Builds a small feature set from price, volume, momentum, and MVRV data
+- Weights the features into a score using Bayesian Optimisation (PyMC)
 - Converts the combined signal into discrete exposure levels
 - Backtests multiple exposure rules with transaction costs
 - Saves portfolio-ready charts into `docs/assets/`
